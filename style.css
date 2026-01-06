@@ -1,0 +1,69 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #a5b1dd;
+}
+
+.all {
+    display: flex;
+    margin: 0;
+
+}
+
+.homeborder {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    border: 10px solid #a5b1dd;
+}
+
+.kc {
+    display: flex;
+    font-size: 3.5rem;
+    height: 60px;
+    width: 120px;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #a5b1dd;
+}
+.nav{
+    display: flex;
+   flex-direction: row;
+   
+}
+.navlinks {
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+    margin-right: 35px;
+    font-size: 1.7rem;
+    gap: 30px;
+
+}
+
+.nav-contact {
+    display: flex;
+    margin-top: 18px;
+    margin-right: 20px;
+    color: #a5b1dd;
+
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: #a5b1dd;
+}
+.contact-btn{
+   background-color: #a5b1dd;
+   width: 110px;
+    height: 40px;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 15px;
+}
+
