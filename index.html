@@ -4,27 +4,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="all">
-        <div class="homeborder">
+        <div class="border">
             <header class="kc">𝕂ℂ</header>
             <div class="nav">
                 <div class="navlinks">
-                    <a href="./index.html" class="nav-home">Home</a>
-                    <a href="./about.html" class="nav-talen">About</a>
-                    <a href="./projects.html" class="nav-vakken">Projects</a>
+                    <a href="#homepage" class="nav-home">Home</a>
+                    <a href="#aboutpage" class="nav-about">About</a>
+                    <a href="#projectspage" class="nav-projects">Projects</a>
+                    <a href="#skillspage" class="nav-skills">Skills</a>
                 </div>
                 <div class="nav-contact">
-                    <button  type="button" class="contact-btn">Cjjj</button>
+                    <a href="#contactpage" class="contact-btn">Contact</a>
                 </div>
             </div>
 
         </div>
+        <div id="homepage">
+            <div class="all-home">
+                <div class="text-home">
+                    <p class="title-home">WELCOME TO MY PORTFOLIO!</p>
+                    <p class="e-textkarlen">Karlen</p>
+                    <p class="e-textchat">Chatchatrian</p>
+                    <p class="e-textsoft">►Software Developer</p>
+                </div>
+                <img src="../fotos portfolio/Wittefoto.avif" alt="Witte foto" class="whiteimage-home">
+            </div>
+        </div>
+        <div id="aboutpage">
+            <div class="all-about">
+                <div class="about-title-image">
+                    <h1 class="about-title">About Me</h1>
+                    <img src="../fotos portfolio/Ict-foto.avif" alt="Ict foto" class="ict-foto">
+                </div>
+                <div class="text-about">
+                    <p class="hello-about">Hello!</p>
+                    <p class="sub-about">My name is Karlen Chatchatrian, and i’m a Software Developer. I specialize in
+                        Java,
+                        JavaScript, Html and more. I have professional experience with these technologies. I look
+                        forward to
+                        working together and creating amazing solutions. </p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div id="projectspage">
+            <div class="projectstitle-mastermind">
+                <h1 class="myprojects">My Projects</h1>
+                <div class="text-image-mastermind">
+                    <div class="mastermind-box">
+                        <h1 class="mastermind">Mastermind</h1>
+                        <img src="../fotos portfolio/Mastermind.jpg" alt="Mastermind" class="mastermind-image">
+                        <h1 class="mastermind-information">I programmed the classic game Mastermind in Java. The game
+                            generates a hidden code, and the player tries to guess it using feedback after each attempt.
+                            I
+                            focused on clean logic, input handling, and a clear game flow.</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="whiteline"></div>
+            <div class="pinkgoose-portfolio">
+                <div class="text-image-pinkgoose">
+                    <div class="pinkgoose-box">
+                        <h1 class="pinkgoose">Pink Goose</h1>
+                        <img src="../fotos portfolio/Pink Goose.png" alt="Pink Goose" class="pinkgoose-image">
+                        <h1 class="pinkgoose-information">For this project, I developed the Pink Goose website using
+                            code. I
+                            focused on creating a clean structure, smooth user experience, and a visually engaging
+                            layout.
+                            The site includes sections for services, the team, press, podcasts, and a form for
+                            submitting
+                            new ideas.
+                        </h1>
+                    </div>
+                </div>
+                <div class="text-image-portfolio">
+                    <div class="portfolio-box">
+                        <h1 class="portfolio">Portfolio</h1>
+                        <img src="../fotos portfolio/Portfolio.png" alt="Portfolio" class="portfolio-image">
+                        <h1 class="portfolio-information">I built my personal portfolio using HTML, CSS, and JavaScript.
+                            The website showcases my projects, skills, and contact information. I focused on a clean
+                            layout, responsive design, and smooth interactions to create a professional and
+                            user-friendly experience.
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="skillspage">
+            <div class="skillstitle">Skills</div>
+            <div class="skills-box">
+                <h1 class="htmlbox">
+                    <div class="html-image-text">
+                        <img src="../fotos portfolio/htmlimage.png" alt="Html image" class="htmlimage">
+                        <p class="html-text">Strong knowledge of HTML allows me to create well-structured and semantic
+                            webpages.HTML is used confidently together with CSS and JavaScript to build clean and
+                            maintainable
+                            websites.</p>
+                    </div>
+                </h1>
+                <h1 class="htmlbox">
+                    <div class="css-image-text">
+                        <img src="../fotos portfolio/css.png" alt="CSS image" class="cssimage">
+                        <p class="css-text">Solid skills in CSS enable me to design responsive and visually appealing
+                            layouts. Styling, positioning, and layout techniques are applied to create
+                            professional-looking webpages.</p>
+                    </div>
+                </h1>
+                <h1 class="javascriptbox">
+                    <div class="javascript-image-text">
+                        <img src="../fotos portfolio/javascript.png" alt="JavaScript image" class="javascript-image">
+                        <p class="javascript-text">Good knowledge of JavaScript helps me add interactivity and dynamic
+                            behavior to websites. JavaScript is effectively combined with HTML and CSS to improve
+                            functionality and user experience.</p>
+                    </div>
+                </h1>
+
+            </div>
+            <div class="whiteline-skills"></div>
+        </div>
+        <div id="contactpage">
+            <h1 class="contact-title">Connect with me
+            </h1>
+            <div class="contact-form">
+                <div class="first-last-name">
+                    <textarea name="First name" placeholder="First name" class="firstname"></textarea>
+                    <textarea name="Last name" placeholder="Last name" class="lastname"></textarea>
+
+
+                </div>
+                <div class="whiteline-contact"></div>
+                <textarea name="Email address" placeholder="Email address" class="emailaddress"></textarea>
+                <div class="whiteline-contact"></div>
+                <textarea name="Subject" placeholder="Subject" class="subject"></textarea>
+                <div class="whiteline-contact"></div>
+                <textarea name="Message" placeholder="Message" class="message"></textarea>
+                <div class="whiteline-contact"></div>
+                <button class="send-btn">Send </button>
+            </div>
+        </div>
     </div>
+    <footer class="footer">
+            <a href="#homepage" class="nav-home">Home</a>
+            <a href="#aboutpage" class="nav-about">About</a>
+            <a href="#projectspage" class="nav-projects">Projects</a>
+            <a href="#skillspage" class="nav-skills">Skills</a>
+    
+    </footer>
 </body>
 
 </html>
